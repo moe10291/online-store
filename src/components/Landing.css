@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap';
 html{
     font-size: 62%;
     box-sizing: border-box;
@@ -7,9 +8,10 @@ body{
     height: 100vh;
     margin: 0;
 }
-body, input, select, textarea{
+body, input, select, textarea, button{
     font-size: 1.6rem;
-    font-family: monospace;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 }
 
 .grid-container{
@@ -38,8 +40,10 @@ header a{
 }
 a:hover{
     color: orange;
-    font-size: 2rem;
-    
+        
+}
+a{
+    text-decoration: none;
 }
 
 main{
@@ -53,4 +57,17 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    flex: 3 60rem
+}
+
+.sidebar {
+    flex: 1 20rem;
 }

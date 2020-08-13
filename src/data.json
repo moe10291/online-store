@@ -1,0 +1,52 @@
+{
+    "products" : [
+        {
+            "_id":"product1",
+            "title":"Black Dress",
+            "image": "/images/dress1.jpg",
+            "description": "About Dress 1",
+            "price": 19.99,
+            "size":["XL", "XXL"]
+        },
+        {
+            "_id":"product2",
+            "title":"White Dress",
+            "image": "/images/dress2.jpg",
+            "description": "About Dress 2",
+            "price": 29.99,
+            "size":["XL", "XXL"]
+        },
+        {
+            "_id":"product3",
+            "title":"Red Dress",
+            "image": "/images/dress3.jpg",
+            "description": "About Dress 3",
+            "price": 32.65,
+            "size":["XL", "XXL"]
+        },
+        {
+            "_id":"product4",
+            "title":"Blue Dress",
+            "image": "/images/dress4.jpg",
+            "description": "About Dress 4",
+            "price": 49.50,
+            "size":["XL", "XXL"]
+        },
+        {
+            "_id":"product5",
+            "title":"Green Dress",
+            "image": "/images/dress5.jpg",
+            "description": "About Dress 5",
+            "price": 39.59,
+            "size":["XL", "XXL"]
+        },
+        {
+            "_id":"product6",
+            "title":"Orange Dress",
+            "image": "/images/dress6.jpg",
+            "description": "About Dress 6",
+            "price": 69.99,
+            "size":["XL", "XXL"]
+        }
+    ]
+}
